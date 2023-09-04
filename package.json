@@ -1,0 +1,44 @@
+{
+  "name": "appium-ios-pref-plugin",
+  "version": "0.1.0",
+  "description": "Appium plugin to set iOS preferences",
+  "main": "./build/src/index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "build": "tsc",
+    "e2e": "mocha ./e2e --timeout 60000"
+  },
+  "repository": "ssh://git@github.com:rerorero/appium-ios-pref-plugin.git",
+  "author": "rerorero <nato9598@hotmail.co.jp>",
+  "license": "MIT",
+  "peerDependencies": {
+    "appium": "2.0.1"
+  },
+  "appium": {
+    "pluginName": "appium-ios-pref-plugin",
+    "mainClass": "IOSPrefPlugin"
+  },
+  "devDependencies": {
+    "@appium/eslint-config-appium": "^8.0.4",
+    "@appium/eslint-config-appium-ts": "^0.3.1",
+    "@tsconfig/node14": "1.0.3",
+    "@types/mocha": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "@wdio/types": "^8.10.4",
+    "appium": "^2.1.0",
+    "appium-xcuitest-driver": "^4.35.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-local": "^1.0.0",
+    "mocha": "^10.2.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6",
+    "webdriverio": "^8.10.2"
+  },
+  "dependencies": {}
+}

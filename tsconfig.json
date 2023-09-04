@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "outDir": "build"
+  },
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "include": ["./src", "./e2e"]
+}

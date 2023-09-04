@@ -1,0 +1,24 @@
+{
+  "semi": false,
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": ["*.json"],
+      "options": {}
+    },
+    {
+      "files": ["*.yaml", ".yml"],
+      "options": {}
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "options": {}
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]
+}
